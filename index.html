@@ -6,14 +6,12 @@
 
 
 
-
-
 <script type="text/javascript">
 // PASSWORD PROTECTION SCRIPT
 
 function TheLogin() {
 
-var password = 'pepper';
+var password = '9157958971987416897091';
 
 if (this.document.login.pass.value == password) {
   top.location.href="correct.html";
@@ -22,7 +20,10 @@ else {
   window.alert("Incorrect password, please try again.");
   }
 }
-
+  
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
 </script>
 
 
