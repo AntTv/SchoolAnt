@@ -1,14 +1,55 @@
-<div id="login">
-  <form name="login">
-    <h1>Login</h1><svg height="150" id="login-profile-picture" role="img" style="border-radius: 100%;" width="150">
-         <rect fill="#666666" height="150" width="150" x="0" y="0"></rect>
-         <circle cx="75" cy="50" fill="#D3D3D3" r="30"></circle>
-         <rect fill="#D3D3D3" height="100" rx="10" width="90" x="30" y="90"></rect></svg>
-    <p><input name="email" placeholder="Username" type="email"></p>
-    <p><input name="password" placeholder="Password" type="password"></p>
-    <div id="sign-in-button-div">
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Reset" />
-    </div>
-  </form>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login</title>
+<meta charset="UTF-8">
+
+
+
+
+
+<script type="text/javascript">
+// PASSWORD PROTECTION SCRIPT
+
+function TheLogin() {
+
+var password = 'pepper';
+
+if (this.document.login.pass.value == password) {
+  top.location.href="correct.html";
+}
+else {
+  window.alert("Incorrect password, please try again.");
+  }
+}
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<br><br><br><br>
+
+
+
+
+
+<div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
+Enter your password:<br>
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
+<input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+
+
+
+
+
+<br><br><br>
+
+</body>
+</html>
