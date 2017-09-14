@@ -1,3 +1,5 @@
+# Security Updates
+
 Begin to start adding a meta tag for the password page, then proceed to program the framework for the website itself.
 Once complete, try and purchase a server to run a database on the website so we can have different variations of login,
 which will allow us to shorten to code and make it less likely for someone to break into the website as it is now.
