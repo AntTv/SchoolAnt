@@ -1,5 +1,4 @@
-# Security Updates
-
+# Updates to Come
 Begin to start adding a meta tag for the password page, then proceed to program the framework for the website itself.
 Once complete, try and purchase a server to run a database on the website so we can have different variations of login,
 which will allow us to shorten to code and make it less likely for someone to break into the website as it is now.
@@ -16,4 +15,3 @@ Ask S. to see if he can program a back end to the website in which only could be
 
 This is part of the 'Security Update'.
 
-##Test
