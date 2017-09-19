@@ -7,4 +7,3 @@ Many updates including passcode has came to the website. Until we are able to pu
    • Updated Some Links
    
    > Updates will continue to be pushed forward regarding security.
-
