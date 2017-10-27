@@ -6,7 +6,7 @@ space.FilteringEnabled = false
 end 
  end 
  
- 
+ ---Begin Script Protocol.
  
 else if
 Workspace.Object.color3.Value == [255,255,255] then
